@@ -3,7 +3,7 @@
 This project explores the behavior of machine learning optimizers—through the lens of Random Variables and Stochastic Processes (RVSP). Instead of treating the optimizer as a black box, we model its update dynamics as a stochastic process.
 Building on this foundation, the project goes one step further by designing a new optimizer from scratch—grounded entirely in RVSP principles such as autocorrelation, power spectral density, and ergodicity. The goal is not just to analyze, but to engineer a more theoretically robust learning algorithm.
 
-**##OBJECTIVES:**
+**OBJECTIVES:**
 1. Initially, we start by modelling the learning dynamics of optimization algorithms as stochastic processes using RVSP principles
 2. The following principles help us to understand how optimizers behave over time:
    - autocorrelation
@@ -15,7 +15,7 @@ Building on this foundation, the project goes one step further by designing a ne
 5. Finally, we use mathematical modeling and experimental simulation to validate the proposed optimizer
 
 
-**## RVSP CONCEPTS USED:**
+**RVSP CONCEPTS USED:**
 This project is built on the foundation of RVSP concepts, which include:
 1. Random Variables: The sequence of gradients or updates to the model can be thought of as a signal which can be further classified as a random process (due to mini batches, model behaviour, etc.)
 2. Autocorrelation and cross-correlation: Used to analyze temporal dependencies in update signals that determine how stable or jittery the resultant signal is.
@@ -25,13 +25,13 @@ This project is built on the foundation of RVSP concepts, which include:
 6. Gaussian and Non-Gaussian Processes: Explored in the context of modeling gradient distributions
 
 
-## MODELING ASSUMPTIONS
+**MODELING ASSUMPTIONS**
 - The gradient \( g_t \) is a realization of a discrete-time random process.
 - Gradients across mini-batches are assumed to be statistically independent or weakly correlated and are classified as random variables
 - The update signal \( u(t) \) is wide-sense stationary (WSS) within local regions of training.
 - The optimizer behaves as an LTI (Linear Time-Invariant) system under small perturbations.
 
-## REPOSITORY STRUCTURE
+**REPOSITORY STRUCTURE**
 ```bash
 ├── src/                 # Python modules: custom optimizer, analysis tools
 ├── notebooks/           # Jupyter notebooks for modeling, simulation, plotting
