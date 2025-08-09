@@ -31,13 +31,4 @@ This project is built on the foundation of RVSP concepts, which include:
 - The update signal \( u(t) \) is wide-sense stationary (WSS) within local regions of training.
 - The optimizer behaves as an LTI (Linear Time-Invariant) system under small perturbations.
 
-## REPOSITORY STRUCTURE
-```bash
-├── src/                 # Python modules: custom optimizer, analysis tools
-├── notebooks/           # Jupyter notebooks for modeling, simulation, plotting
-├── simulations/         # Scripts to run experiments and save results
-├── results/             # Generated plots: ACF, PSD, loss curves
-├── docs/                # Review documents (R1 to R4)
-├── report/              # Final report and presentation
-├── requirements.txt     # Python dependencies
-└── README.md            # Project overview and instructions
+ 
