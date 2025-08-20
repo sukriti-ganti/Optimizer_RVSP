@@ -31,5 +31,3 @@ This project is built on the foundation of RVSP concepts, which include:
 - The update signal \( u(t) \) is wide-sense stationary (WSS) within local regions of training.
 - The optimizer behaves as an LTI (Linear Time-Invariant) system under small perturbations.
 
-Good night!
-
