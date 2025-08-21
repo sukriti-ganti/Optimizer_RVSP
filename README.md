@@ -6,10 +6,10 @@ Building on this foundation, the project goes one step further by designing a ne
 ## OBJECTIVES:
 1. Initially, we start by modelling the learning dynamics of optimization algorithms as stochastic processes using RVSP principles
 2. The following principles help us to understand how optimizers behave over time:
-   - autocorrelation
-   - stationarity
-   - power spectral density
-   - ergodicity
+   - Autocorrelation
+   - Stationarity
+   - Power Spectral Density
+   - Ergodicity
 3. We identify patterns and use the results to fix the inaccuracies that are often overlooked in deep learning workflows
 4. Following this, the objective is to design a custom optimization algorithm that works with RVSP concepts as its foundation
 5. Finally, we use mathematical modeling and experimental simulation to validate the proposed optimizer
